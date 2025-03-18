@@ -1,4 +1,13 @@
 #!/bin/bash
+#This script was written to simplify the process of running nmap and gobuster during CTF and pentesting in general.
+#This is my first bash script so any feedback is appreciated
+#Install Instructions
+# chmod +x recon.sh to grant executable permissions
+# After that simply run the command
+# ./recon.sh <target IP> 
+#
+#
+
 
 # Check if the required tools are installed
 if ! command -v nmap &> /dev/null; then
